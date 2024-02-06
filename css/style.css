@@ -1,3 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+.h3-top {
+  font-family: "Inter", sans-serif;
+  transition: 0.8s;
+  color: white;
+  text-decoration: none !important;
+}
+.h3-top:hover {
+  color: #D04242;
+  transition: 0.8s;
+  transform: scale(0.9);
+}
 
+.navbar {
+  background: rgb(22, 20, 25);
+  background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
+  overflow-y: hidden;
+  border-bottom: 1px solid #b01f1f;
+}
+
+.nav-all {
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+}
+
+.nav-itens {
+  font-family: "Inter", sans-serif;
+  width: 76vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  overflow-y: hidden;
+}
+.nav-itens .nav-link {
+  color: white;
+  width: auto;
+  font-weight: 500;
+  padding: 12px 30px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  transition: 1.8s;
+}
+.nav-itens .nav-link:hover {
+  color: #D04242;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: ease-in-out 1s;
+  transform: scale(1.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #151719;
+}
+
+.introduction-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/Group 10.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 /*# sourceMappingURL=style.css.map */

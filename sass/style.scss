@@ -1,0 +1,27 @@
+@import 'header.scss';
+@import 'fontes.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+//   a{
+//     text-decoration: none ;
+//   }
+
+body{
+    background-color: #151719;
+}
+
+
+.introduction-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/Group\ 10.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
