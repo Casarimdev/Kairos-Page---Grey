@@ -25,15 +25,19 @@
 
   <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Intro -->
+  
 <!-- ------ -->
 </head>
 <body>
 
 <!-- HEADER -->
-  <header class="header-container fixed-top" style="height: auto; width: 100vw;">
+  <header class="header-container" style="height: auto; width: 100vw;">
     <nav class="navbar navbar-expand-lg high-nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -62,11 +66,33 @@
 </header>
 
 <section class="introduction-container" >
-    <h1 class="H1-KAI">KAIRÓS <br> ZELADORIA PATRIMONIAL</h1>
+    <h1 class="H1-KAI pt-4" data-aos="fade-up" data-aos-duration="1500">KAIRÓS <br> ZELADORIA PATRIMONIAL</h1>
+    <article class="container-conteudo">
+        <div class="image-container"><img src="./images/kairos-bigao.png"  class="img-kairos" alt="kairos-logo-gg" style="border-radius: 50%;" data-aos="fade-right" data-aos-duration="2500"></div>
+        <div class="text-container pb-3" data-aos="fade-left" data-aos-duration="2500">
+            <h1 class="h1-first pb-3">Zeladoria de Exelência! <br> A Chave para um Ambiente Condominial Perfeito.</h1>
+            <p class="p-first pb-3">Contamos com mais de 20 anos de experiência! <br> Levando uma zeladoria de qualidade para seu serviço.</p>
+            <h2 class="h2-first">Trabalho de Alto Nível ao Seu Alcance. <br> Peça Seu Orçamento Agora!</h2>
+            <div class="buttons-c pt-3">
+                <button class="button-l contact-button me-4">Quero um Orçamento Agora!</button>
+                <button class="button-l service-button">Conheça Nossos Serviços</button>
+            </div>
+        </div>
+    </article>
+    <!-- <p> <div class="button-scroll">
+        <a href="#second">
+            <div class="scroll-down2"></div>
+    </div></p> -->
 </section>
 
 
 
+
+
+
+
+
+ <!-- INTRO CONTAINER -->
     
 <!-- data-aos="fade-left" data-aos-duration="2500" -->
 <!-- Bootstrap JS Bundle -->
@@ -79,6 +105,7 @@
 <script>
   AOS.init();
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
 </html>

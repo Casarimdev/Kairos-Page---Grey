@@ -1,6 +1,7 @@
 @import 'header.scss';
 @import 'fontes.scss';
-
+@import 'intro.scss';
+@import 'buttonscroll.scss';
 
 * {
     margin: 0;
@@ -9,9 +10,6 @@
     overflow-x: hidden !important;
   }
 
-//   a{
-//     text-decoration: none ;
-//   }
 
 body{
     background-color: #151719;
@@ -21,11 +19,116 @@ body{
 .introduction-container{
     height: 100vh;
     width: 100%;
-    background-image: url('../images/');
-    background-repeat: no-repeat;
-    background-size: contain;
+  
+
 
     .H1-KAI{
+        font-family: 'Inika', serif;
+        color: #D9E3EA;
+        font-weight: bold;
         overflow-y: hidden;
+        text-align: center;
+    }
+
+    .container-conteudo{
+        width: 100vw;
+        height: 65vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .image-container{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text-container{
+            width: 50%;
+            text-align: left;
+            font-family: 'Inter', sans-serif;
+
+            .h1-first{
+                color: #f0ffff;
+                font-size: 26px;
+            }
+
+            .p-first{
+                color: #9BA9B4;
+                font-size: 20px;
+            }
+
+            .h2-first{
+                color: #D9E3EA;
+                font-size: 24px;
+            }
+        }
     }
 }
+
+
+
+.button-l{
+    border: 1px solid #161419;
+    min-width: 10vw !important;
+    width: auto !important;
+  }
+
+  .service-button{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #33363A;
+    color: white;
+    transition: 0.8s;
+    &:hover{
+      background-color: #33363A;
+      color: #fafafa;
+      transition: 0.8s;
+      transform: scale(0.9);
+      border-radius: 10px;
+                
+  }
+}
+
+
+  .contact-button{
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #161419;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b01f1f;
+    color: white;
+    transition: 0.8s;
+    &:hover{
+      background-color: #b01f1f;
+      color: #fafafa;
+      transition: 0.8s;
+      transform: scale(0.9);
+    }
+  }
+
+
+.img-kairos{
+    width: 24vw;
+    height: auto;
+    margin-bottom: 6vh;
+}
+
+
+@media (max-width: 1237px){
+    .h1-first{
+        font-size: 20px !important;
+    }
+
+    .p-first{
+        font-size: 14px !important;
+    }
+
+    .h2-first{
+        font-size: 20px !important;
+    }
+}
+
+

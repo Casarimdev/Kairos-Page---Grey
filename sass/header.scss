@@ -6,7 +6,7 @@
 }
 
 .nav-all{
-  height: 15vh;
+  height: 12vh;
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
@@ -14,7 +14,7 @@
 }
 
 
-.nav-itens{
+.nav-itens {
   font-family: 'Inter', sans-serif;
   width: 76vw;
   display: flex;
@@ -23,24 +23,32 @@
   gap: 30px;
   overflow-y: hidden;
 
-  .nav-link{
+  .nav-link {
     color: white;
     width: auto;
-    font-weight     : 500;
-    padding         : 12px 30px;
+    font-weight: 500;
+    padding: 12px 30px;
     text-align: center;
     background-color: transparent;
-    color           : white;
-    // border-radius   : 10px;
-    // border-bottom          : 2px solid white;
-    transition      : 1.8s;
+    color: white;
+    transition: 1.8s;
+    position: relative; // Adiciona posição relativa para os links
   }
 
-  .nav-link:hover{
-    color: #D04242;
-    text-decoration: underline;
-    font-weight    : 500;
-    transition     : ease-in-out 1.0s ;
-    transform: scale(1.2);
+  .nav-link::after { // Adiciona um pseudo-elemento ::after
+    content: '';
+    position: absolute; // Define a posição como absoluta em relação ao link
+    left: 0;
+    bottom: 0; // Define a linha na parte inferior do link
+    width: 0; // Começa sem largura
+    height: 2px; // Define a altura da linha
+    background-color: transparent; // Cor da linha
+    transition: width 0.3s ease; // Transição suave para a largura da linha]
+    transition: 1.2s;
+  }
+
+  .nav-link:hover::after { // Quando o link está em hover, expande a linha
+    width: 100%; // Expande a largura para 100%
+    background-color: #D04242; // Cor da linha ao passar o mouse
   }
 }
