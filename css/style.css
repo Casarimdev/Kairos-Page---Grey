@@ -242,6 +242,13 @@ body {
   margin-bottom: 6vh;
 }
 
+.buttons-c {
+  width: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 @media (max-width: 1237px) {
   .h1-first {
     font-size: 20px !important;
@@ -251,6 +258,63 @@ body {
   }
   .h2-first {
     font-size: 20px !important;
+  }
+  .me-4 {
+    margin-right: 0.5rem !important;
+  }
+  .text-container {
+    width: 65% !important;
+  }
+}
+@media (max-width: 840px) {
+  .introduction-container {
+    height: auto !important;
+  }
+  .container-conteudo {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .container-conteudo .text-container {
+    height: auto;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1-first {
+    font-size: 15px !important;
+  }
+  .p-first {
+    font-size: 9px !important;
+  }
+  .h2-first {
+    font-size: 15px !important;
+  }
+  .pb-3 {
+    padding-bottom: 0rem !important;
+  }
+  .button-l {
+    font-size: 12px;
+    width: auto !important;
+  }
+  .button-l .service-button {
+    width: auto !important;
+  }
+  .buttons-c {
+    width: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 20px;
+  }
+  .contact-button {
+    width: 50vw !important;
+    margin-right: 0 !important;
+  }
+  .service-button {
+    width: 50vw !important;
   }
 }
 
