@@ -5,6 +5,8 @@
 @import 'services.scss';
 @import 'about.scss';
 @import 'vantagens.scss';
+@import 'feedback.scss';
+@import 'contact.scss';
 
 
 * {
@@ -114,6 +116,7 @@ p{
       color: #fafafa;
       transition: 0.8s;
       transform: scale(0.9);
+      
     }
   }
 
@@ -130,6 +133,35 @@ p{
     justify-content: start;
     align-items: center;
 }
+
+.footer-kai{
+    height: 8vh;
+    background-color: #FFF;
+    color: #161419;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icons-back{
+
+    transition: 1.5s;
+
+    &:hover{
+        transform: scale(0.9);
+        transition: 1.2s;
+        color: #b01f1f !important;
+    }
+}
+
+
+
+
+
+
 
 @media (max-width: 1237px){
     .h1-first{
@@ -219,3 +251,32 @@ p{
 }
 
 
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 0px 34px 0px #25D366;
+    z-index:100;
+    transition: 2s;
+
+    &:hover{
+        color:#FFF;
+        transition: 2s;
+        box-shadow: none;
+    }
+}
+
+.my-float{
+	margin-top:16px;
+    
+}

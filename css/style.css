@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
@@ -337,6 +338,129 @@ header {
   text-align: center;
 }
 
+.feedback-container {
+  height: auto;
+  width: 100%;
+}
+.feedback-container .H1-containers {
+  font-family: "Inika", serif;
+  color: #D9E3EA;
+  font-weight: bold;
+  overflow-y: hidden;
+  text-align: center;
+}
+.feedback-container .p-containers {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #9BA9B4;
+  padding-bottom: 5rem !important;
+}
+.feedback-container .feedback-content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.feedback-container .feedback-content .img-feedback {
+  border-radius: 10px;
+  height: 40vh;
+  width: auto;
+  box-shadow: 5px 4px 14px 12px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+  height: auto;
+  width: 100%;
+}
+.contact-container .content-contact2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.contact-container .H1-containers {
+  font-family: "Inika", serif;
+  color: #D9E3EA;
+  font-weight: bold;
+  overflow-y: hidden;
+  text-align: center;
+}
+.contact-container .p-containers {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #9BA9B4;
+  padding-bottom: 5rem !important;
+}
+
+.container {
+  max-width: 400px;
+  margin: 17px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  border-bottom: 2px solid #ff0000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: calc(100% - 40px); /* ajuste para compensar a largura da borda esquerda */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-left: 2px solid #b01f1f; /* cor da borda esquerda */
+}
+
+textarea.input-field {
+  height: 100px; /* altura do textarea */
+}
+
+.submit-btn {
+  background-color: #b01f1f; /* cor do botão */
+  color: #fff; /* cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #b01f1f; /* cor do botão ao passar o mouse */
+}
+
+.content-form {
+  width: 50%;
+  height: auto;
+}
+
+.contact-text {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-contact {
+  height: auto !important;
+  font-size: 20px;
+  color: #fff;
+}
+
+.p-contact {
+  font-size: 16px;
+  color: #9BA9B4;
+  width: 400px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -447,6 +571,26 @@ p {
   align-items: center;
 }
 
+.footer-kai {
+  height: 8vh;
+  background-color: #FFF;
+  color: #161419;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-back {
+  transition: 1.5s;
+}
+.icons-back:hover {
+  transform: scale(0.9);
+  transition: 1.2s;
+  color: #b01f1f !important;
+}
+
 @media (max-width: 1237px) {
   .h1-first {
     font-size: 20px !important;
@@ -514,6 +658,31 @@ p {
   .service-button {
     width: 50vw !important;
   }
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 0px 34px 0px #25D366;
+  z-index: 100;
+  transition: 2s;
+}
+.float:hover {
+  color: #FFF;
+  transition: 2s;
+  box-shadow: none;
+}
+
+.my-float {
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
