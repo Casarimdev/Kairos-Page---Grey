@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 .navbar {
   background: rgb(22, 20, 25);
   background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
@@ -145,6 +146,95 @@
   height: auto;
 }
 
+.service-container {
+  width: 100%;
+  height: auto;
+}
+.service-container .H1-containers {
+  font-family: "Inika", serif;
+  color: #D9E3EA;
+  font-weight: bold;
+  overflow-y: hidden;
+  text-align: center;
+}
+.service-container .p-containers {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #9BA9B4;
+  padding-bottom: 5rem !important;
+}
+
+.service1-content {
+  width: 95%;
+  height: auto;
+  display: flex;
+}
+.service1-content .service-texts {
+  width: 62%;
+  height: auto;
+  display: flex;
+  margin-left: 30vh;
+  flex-direction: column;
+}
+.service1-content .service-texts .subtitle-service {
+  font-family: "Architects Daughter", cursive;
+  color: #E53D3E;
+  margin-left: 0 !important;
+  font-size: 18px;
+}
+.service1-content .service-texts .h1-service {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.service1-content .service-texts .p-service {
+  width: 35vw;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #9BA9B4;
+  font-weight: normal;
+}
+.service1-content .service-texts .quality-services {
+  font-family: "Inter", sans-serif;
+  color: #D8D8D8;
+}
+.service1-content .service-image {
+  width: 50%;
+}
+
+.service-texts-right {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.service-texts-right .subtitle-service {
+  font-family: "Architects Daughter", cursive;
+  color: #E53D3E;
+  margin-left: 0 !important;
+}
+.service-texts-right .h1-service {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.service-texts-right .p-service {
+  width: 35vw;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #9BA9B4;
+  font-weight: normal;
+}
+.service-texts-right .quality-services {
+  font-family: "Inter", sans-serif;
+  color: #D8D8D8;
+}
+
+.service-image-right {
+  margin-left: 26vh;
+  width: 62%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -154,10 +244,15 @@
 
 body {
   background-color: #151719;
+  color: white;
+}
+
+p {
+  margin-bottom: 0 !important;
 }
 
 .introduction-container {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 .introduction-container .H1-KAI {

@@ -1,0 +1,101 @@
+.service-container{
+    width: 100%;
+    height: auto;
+    
+    .H1-containers{
+        font-family: 'Inika', serif;
+        color: #D9E3EA;
+        font-weight: bold;
+        overflow-y: hidden;
+        text-align: center;
+    }
+
+    .p-containers{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        color: #9BA9B4;
+        padding-bottom: 5rem !important;
+    }
+}
+
+
+.service1-content{
+    width: 95%;
+    height: auto;
+    display: flex;
+
+    .service-texts{
+        width: 62%;
+        height: auto;
+        display: flex;
+        margin-left: 30vh;
+        flex-direction: column;
+
+        .subtitle-service{
+            font-family: 'Architects Daughter', cursive;
+            color: #E53D3E;
+            margin-left: 0 !important;
+            font-size: 18px;
+        }
+
+        .h1-service{
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+        }
+
+        .p-service{
+            width: 35vw;
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            color: #9BA9B4;
+            font-weight: normal;
+        }
+
+        .quality-services{
+            font-family: 'Inter', sans-serif;
+            color: #D8D8D8;
+        }
+    }
+
+    .service-image{
+        width: 50%;
+    }
+}
+
+
+.service-texts-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    .subtitle-service{
+        font-family: 'Architects Daughter', cursive;
+        color: #E53D3E;
+        margin-left: 0 !important;
+    }
+
+    .h1-service{
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .p-service{
+        width: 35vw;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        color: #9BA9B4;
+        font-weight: normal;
+    }
+
+    .quality-services{
+        font-family: 'Inter', sans-serif;
+        color: #D8D8D8;
+    }
+}
+
+.service-image-right{
+    margin-left: 26vh;
+    width: 62%;
+}
