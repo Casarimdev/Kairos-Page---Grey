@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+header {
+  background-color: rgb(22, 20, 25);
+  background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
+}
+
 .navbar {
-  background: rgb(22, 20, 25);
+  background-color: rgb(22, 20, 25);
   background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
   overflow-y: hidden;
-  border-bottom: 1px solid #b01f1f;
 }
 
 .nav-all {
@@ -26,13 +31,13 @@
   overflow-y: hidden;
 }
 .nav-itens .nav-link {
-  color: white;
+  color: #D9E3EA;
   width: auto;
   font-weight: 500;
   padding: 12px 30px;
   text-align: center;
   background-color: transparent;
-  color: white;
+  color: #D9E3EA;
   transition: 1.8s;
   position: relative;
 }
@@ -43,13 +48,16 @@
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: transparent;
   transition: width 0.3s ease;
   transition: 1.2s;
 }
 .nav-itens .nav-link:hover::after {
   width: 100%;
   background-color: #D04242;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #D9E3EA !important;
 }
 
 .intro {
@@ -235,6 +243,100 @@
   width: 62%;
 }
 
+.about-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.about-container .text-about {
+  width: 50%;
+  height: auto;
+  margin-left: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.about-container .text-about .h1-about {
+  font-family: "Inika", serif;
+  border-bottom: 8px solid #E53D3E;
+  width: 20vw;
+  height: auto;
+}
+.about-container .text-about .p-about {
+  font-family: "Inria Sans", sans-serif;
+  color: #E3E7EB;
+  width: 30vw;
+  font-size: 18px;
+}
+.about-container .quality-about {
+  width: 50%;
+  height: 85vh;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.about-container .quality-about .image-about {
+  width: 20vw;
+  height: auto;
+  margin-bottom: 4vh;
+}
+.about-container .quality-about .span-about {
+  font-family: "Inika", serif;
+  font-weight: normal;
+  border-left: 4px solid #E53D3E;
+  height: 10vh;
+  padding-top: 3vh;
+  padding-left: 2vh;
+  margin-left: 3vh;
+}
+
+.vantages-container {
+  height: auto;
+  width: 100%;
+}
+.vantages-container .H1-containers {
+  font-family: "Inika", serif;
+  color: #D9E3EA;
+  font-weight: bold;
+  overflow-y: hidden;
+  text-align: center;
+}
+.vantages-container .p-containers {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #9BA9B4;
+  padding-bottom: 3rem !important;
+}
+
+.content-v-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content-v-1 .vantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.h1-van {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.p-van {
+  font-family: "Inter", sans-serif;
+  color: #9BA9B4;
+  font-size: 14px;
+  width: 18vw;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -243,8 +345,8 @@
 }
 
 body {
-  background-color: #151719;
-  color: white;
+  background-color: #151719 !important;
+  color: white !important;
 }
 
 p {
@@ -252,8 +354,9 @@ p {
 }
 
 .introduction-container {
-  height: 90vh;
+  height: auto;
   width: 100%;
+  background-color: #151719;
 }
 .introduction-container .H1-KAI {
   font-family: "Inika", serif;

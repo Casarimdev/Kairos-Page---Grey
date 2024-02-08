@@ -1,0 +1,54 @@
+.about-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .text-about{
+        width: 50%;
+        height: auto;
+        margin-left: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        .h1-about{
+            font-family: 'Inika', serif;
+            border-bottom: 8px solid #E53D3E;
+            width: 20vw;
+            height: auto;
+        }
+
+        .p-about{
+            font-family: 'Inria Sans', sans-serif;
+            color: #E3E7EB;
+            width: 30vw;
+            font-size: 18px;
+        }
+    }
+
+    .quality-about{
+        width: 50%;
+        height: 85vh;
+        // margin-top: ;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+
+        .image-about{
+            width: 20vw;
+            height: auto;
+            margin-bottom: 4vh;
+        }
+
+        .span-about{
+            font-family: 'Inika', serif;
+            font-weight: normal;
+            border-left: 4px solid #E53D3E;
+            height: 10vh;
+            padding-top: 3vh;
+            padding-left: 2vh;
+            margin-left: 3vh;
+        }
+    }
+}

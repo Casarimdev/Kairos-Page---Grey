@@ -1,8 +1,13 @@
+  header{
+    background-color: rgb(22,20,25);
+    background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22,20,25,0) 74%);
+  }
+  
   .navbar{
-  background: rgb(22,20,25);
+  background-color: rgb(22,20,25);
   background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22,20,25,0) 74%);
   overflow-y: hidden;
-  border-bottom: 1px solid #b01f1f;
+  // border-bottom: 1px solid #b01f1f;
 }
 
 .nav-all{
@@ -24,13 +29,13 @@
   overflow-y: hidden;
 
   .nav-link {
-    color: white;
+    color: #D9E3EA ;
     width: auto;
     font-weight: 500;
     padding: 12px 30px;
     text-align: center;
     background-color: transparent;
-    color: white;
+    color: #D9E3EA ;
     transition: 1.8s;
     position: relative; // Adiciona posição relativa para os links
   }
@@ -42,7 +47,7 @@
     bottom: 0; // Define a linha na parte inferior do link
     width: 0; // Começa sem largura
     height: 2px; // Define a altura da linha
-    background-color: transparent; // Cor da linha
+    // background-color: transparent; // Cor da linha
     transition: width 0.3s ease; // Transição suave para a largura da linha]
     transition: 1.2s;
   }
@@ -51,4 +56,9 @@
     width: 100%; // Expande a largura para 100%
     background-color: #D04242; // Cor da linha ao passar o mouse
   }
+}
+
+
+.nav-link:focus, .nav-link:hover {
+  color: #D9E3EA !important; 
 }

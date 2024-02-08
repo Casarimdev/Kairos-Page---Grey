@@ -1,0 +1,49 @@
+.vantages-container{
+    height: auto;
+    width: 100%;
+    
+    .H1-containers{
+        font-family: 'Inika', serif;
+        color: #D9E3EA;
+        font-weight: bold;
+        overflow-y: hidden;
+        text-align: center;
+    }
+
+    .p-containers{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        color: #9BA9B4;
+        padding-bottom: 3rem !important;
+    }
+}
+
+
+.content-v-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .vantages{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.h1-van{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.p-van{
+    font-family: 'Inter', sans-serif;
+    color: #9BA9B4;
+    font-size: 14px;
+    width: 18vw;
+    text-align: center;
+}

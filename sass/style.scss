@@ -4,6 +4,7 @@
 @import 'buttonscroll.scss';
 @import 'services.scss';
 @import 'about.scss';
+@import 'vantagens.scss';
 
 
 * {
@@ -15,8 +16,8 @@
 
 
 body{
-    background-color: #151719;
-    color: white;
+    background-color: #151719 !important;
+    color: white !important;
 }
 
 p{
@@ -24,9 +25,9 @@ p{
 }
 
 .introduction-container{
-    height: 90vh;
+    height: auto;
     width: 100%;
-  
+  background-color: #151719;
 
 
     .H1-KAI{
