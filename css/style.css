@@ -4,14 +4,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 header {
-  background-color: rgb(22, 20, 25);
-  background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
+  background-color: #25282C;
+  background: linear-gradient(180deg, rgba(37, 40, 44, 0.137254902) 51%, rgba(22, 20, 25, 0) 74%);
 }
 
 .navbar {
-  background-color: rgb(22, 20, 25);
-  background: linear-gradient(180deg, rgba(22, 20, 25, 0.429) 51%, rgba(22, 20, 25, 0) 74%);
+  background-color: #25282C;
+  background: linear-gradient(180deg, rgba(37, 40, 44, 0.1764705882) 51%, rgba(22, 20, 25, 0) 74%);
   overflow-y: hidden;
+  border-bottom: 1px solid #D9E3EA;
 }
 
 .nav-all {
@@ -393,7 +394,7 @@ header {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 400px !important;
   margin: 17px auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -469,7 +470,7 @@ textarea.input-field {
 }
 
 body {
-  background-color: #151719 !important;
+  background-color: #25282C !important;
   color: white !important;
 }
 
@@ -480,7 +481,7 @@ p {
 .introduction-container {
   height: auto;
   width: 100%;
-  background-color: #151719;
+  background-color: #25282C;
 }
 .introduction-container .H1-KAI {
   font-family: "Inika", serif;
