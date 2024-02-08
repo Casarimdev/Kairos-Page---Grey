@@ -159,6 +159,7 @@ header {
 .service-container {
   width: 100%;
   height: auto;
+  background-color: #45484A;
 }
 .service-container .H1-containers {
   font-family: "Inika", serif;
@@ -249,6 +250,7 @@ header {
   height: auto;
   width: 100%;
   display: flex;
+  background-color: #474B4E;
   flex-direction: row;
 }
 .about-container .text-about {
@@ -296,6 +298,7 @@ header {
 .vantages-container {
   height: auto;
   width: 100%;
+  background-color: #474B4E;
 }
 .vantages-container .H1-containers {
   font-family: "Inika", serif;
@@ -342,6 +345,7 @@ header {
 .feedback-container {
   height: auto;
   width: 100%;
+  background-color: #474B4E;
 }
 .feedback-container .H1-containers {
   font-family: "Inika", serif;
@@ -373,6 +377,7 @@ header {
 .contact-container {
   height: auto;
   width: 100%;
+  background-color: #474B4E;
 }
 .contact-container .content-contact2 {
   display: flex;
@@ -470,7 +475,7 @@ textarea.input-field {
 }
 
 body {
-  background-color: #25282C !important;
+  background-color: #434649 !important;
   color: white !important;
 }
 
@@ -481,7 +486,7 @@ p {
 .introduction-container {
   height: auto;
   width: 100%;
-  background-color: #25282C;
+  background-color: #434649;
 }
 .introduction-container .H1-KAI {
   font-family: "Inika", serif;
