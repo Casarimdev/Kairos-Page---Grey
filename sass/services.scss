@@ -64,6 +64,24 @@
     }
 }
 
+.service-button1{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    width: 16vw !important;
+    border-radius: 10px;
+    background-color: #33363A;
+    color: white;
+    transition: 0.8s;
+    &:hover{
+      background-color: #33363A;
+      color: #fafafa;
+      transition: 0.8s;
+      transform: scale(0.9);
+      border-radius: 10px;
+                
+  }
+}
+
 
 .service-texts-right{
     width: 50%;
@@ -99,4 +117,88 @@
 .service-image-right{
     margin-left: 26vh;
     width: 62%;
+}
+
+// RESPONSIVIDADE
+@media (max-width: 1085px){
+    .service1-content .service-texts{
+        width: 50% !important;
+        margin-left: 15vh !important;
+    }
+    
+    .service1-content .service-texts .p-service{
+        width: 40vw !important;
+    }
+    
+
+    .service-texts-right .p-service{
+        width: 40vw !important;
+    }
+
+
+    .service-image-right {
+        margin-left: 13vh !important;
+        width: 60% !important;
+    }
+
+    .service-button1{
+        width: 23vw !important;
+    }
+}
+
+
+
+@media (max-width: 898px){
+    .service1-content{
+        width: auto !important;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .content-right{
+        width: auto !important;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .service1-content .service-image {
+        width: auto;
+        padding-bottom: 4vh;
+    }
+
+    .service1-content .service-texts{
+        margin-left: 0 !important;
+        width: auto !important;
+        align-items: center;
+    }
+
+    .service-texts-right{
+        margin-left: 0 !important;
+        width: auto !important;
+        align-items: center;
+    }
+    
+    .service-image-right{
+        margin-left: 0 !important;
+        width: auto !important;
+        padding-bottom: 4vh;
+    }
+
+    .service-container .p-containers{
+        padding-bottom: 1rem !important;
+    }
+
+    .service1-content .service-texts .p-service{
+        text-align: center !important;
+        width: 50vw !important;
+    }
+
+    .service-texts-right .p-service{
+        text-align: center !important;
+        width: 50vw !important;
+    }
 }
