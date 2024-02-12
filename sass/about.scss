@@ -53,3 +53,29 @@
         }
     }
 }
+
+
+@media (max-width: 1427px){
+    .about-container .text-about .h1-about{
+        width: 35vw;
+        overflow: hidden !important;
+    }
+}
+
+
+@media (max-width: 884px){
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container .text-about .h1-about{
+        text-align: center;
+        width: 41vw;
+    }
+
+    .about-container .text-about .p-about{
+        width: 40vw;
+        text-align: center;
+    }
+}
