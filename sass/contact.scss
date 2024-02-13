@@ -96,3 +96,27 @@ textarea.input-field {
     color: #9BA9B4;
     width: 400px;
 }
+
+@media (max-width: 900px){
+    .content-contact2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-contact{
+        width: auto !important;
+        font-size: 12px;
+        
+    }
+
+    .text-c{
+        width: auto!important;
+    }
+}
+
+@media (max-width: 500px){
+    .p-contact{
+        width: 100vw !important;
+    }
+}
