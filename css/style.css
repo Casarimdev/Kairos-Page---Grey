@@ -297,6 +297,9 @@ header {
     justify-content: center;
     align-content: center;
   }
+  .service1-content .service-texts .h1-service {
+    font-size: 26px;
+  }
   .service1-content .service-image {
     width: auto;
     padding-bottom: 4vh;
@@ -321,11 +324,21 @@ header {
   }
   .service1-content .service-texts .p-service {
     text-align: center !important;
-    width: 50vw !important;
+    width: 80vw !important;
+    font-size: 16px;
   }
   .service-texts-right .p-service {
     text-align: center !important;
-    width: 50vw !important;
+    width: 80vw !important;
+    font-size: 16px;
+  }
+  .service-button1 {
+    width: 35vw !important;
+  }
+}
+@media (max-width: 400px) {
+  .service-button1 {
+    width: 55vw !important;
   }
 }
 .about-container {
@@ -393,8 +406,34 @@ header {
     width: 41vw;
   }
   .about-container .text-about .p-about {
-    width: 40vw;
+    width: 60vw;
     text-align: center;
+  }
+  .about-container .text-about {
+    margin-left: 0vh !important;
+    width: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .about-container .quality-about {
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-container .quality-about .span-about {
+    width: auto !important;
+    border-left: 0 !important;
+    margin-left: 0 !important;
+    border-bottom: 4px solid #E53D3E;
+  }
+}
+@media (max-width: 600px) {
+  .about-container .text-about .h1-about {
+    padding-bottom: 2vh !important;
+  }
+  .about-container .quality-about .span-about {
+    width: auto !important;
   }
 }
 .vantages-container {
@@ -444,6 +483,12 @@ header {
   text-align: center;
 }
 
+@media (max-width: 898px) {
+  .p-van {
+    width: auto !important;
+    padding-bottom: 7vh;
+  }
+}
 .feedback-container {
   height: auto;
   width: 100%;
@@ -476,6 +521,17 @@ header {
   box-shadow: 5px 4px 14px 12px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 898px) {
+  .feedback-container .feedback-content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center;
+  }
+}
 .contact-container {
   height: auto;
   width: 100%;

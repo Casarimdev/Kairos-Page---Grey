@@ -75,7 +75,40 @@
     }
 
     .about-container .text-about .p-about{
-        width: 40vw;
+        width: 60vw;
         text-align: center;
+    }
+
+    .about-container .text-about{
+        margin-left: 0vh !important;
+        width: auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .about-container .quality-about{
+        width: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .about-container .quality-about .span-about{
+        width: auto !important;
+        border-left: 0 !important;
+        margin-left: 0 !important;
+        border-bottom: 4px solid #E53D3E;
+    }
+}
+
+@media (max-width: 600px){
+    .about-container .text-about .h1-about{
+        padding-bottom: 2vh !important;
+    }
+
+    .about-container .quality-about .span-about{
+        width: auto !important;
+        
     }
 }

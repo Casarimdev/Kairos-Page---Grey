@@ -47,3 +47,11 @@
     width: 18vw;
     text-align: center;
 }
+
+
+@media (max-width: 898px){
+    .p-van{
+        width: auto !important;
+        padding-bottom: 7vh ;
+    }
+}

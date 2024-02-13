@@ -35,3 +35,17 @@
     
     
 }
+
+
+
+@media (max-width: 898px){
+    .feedback-container .feedback-content {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    }
+}

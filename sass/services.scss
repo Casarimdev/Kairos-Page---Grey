@@ -164,6 +164,10 @@
         justify-content: center;
         align-content: center;
     }
+
+    .service1-content .service-texts .h1-service{
+        font-size: 26px;
+    }
     
     .service1-content .service-image {
         width: auto;
@@ -194,11 +198,25 @@
 
     .service1-content .service-texts .p-service{
         text-align: center !important;
-        width: 50vw !important;
+        width: 80vw !important;
+        font-size: 16px ;
     }
 
     .service-texts-right .p-service{
         text-align: center !important;
-        width: 50vw !important;
+        width: 80vw !important;
+        font-size: 16px ;
+    }
+    .service-button1{
+        width: 35vw !important;
     }
 }
+
+
+@media (max-width: 400px){
+    .service-button1{
+        width: 55vw !important;
+    }
+}
+
+
