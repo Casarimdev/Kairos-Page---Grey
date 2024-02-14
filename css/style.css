@@ -863,6 +863,16 @@ a:hover {
   font-size: 18px;
 }
 
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:link:hover, a:visited:hover {
+  color: #FFF !important;
+  text-decoration: none !important;
+}
+
 .button-l {
   border: 1px solid #161419;
   min-width: 10vw !important;
