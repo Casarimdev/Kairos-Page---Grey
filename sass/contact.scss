@@ -10,7 +10,7 @@
     
     .H1-containers{
         font-family: 'Inika', serif;
-        color: #D9E3EA;
+        color: #fff;
         font-weight: bold;
         overflow-y: hidden;
         text-align: center;
@@ -89,6 +89,7 @@ textarea.input-field {
     height: auto !important;
     font-size: 20px;
     color: #fff;
+    overflow: hidden;
 }
 
 .p-contact{
@@ -113,10 +114,26 @@ textarea.input-field {
     .text-c{
         width: auto!important;
     }
+
+    .contact-text{
+        justify-content: end;
+    }
 }
 
-@media (max-width: 500px){
+@media (max-width: 510px){
     .p-contact{
-        width: 100vw !important;
+        width: auto !important;
     }
+
+    .input-field {
+        width: calc(140% - 40px); /* ajuste para compensar a largura da borda esquerda */
+    }
+
+    .content-contact2{
+        width: 160% !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
 }

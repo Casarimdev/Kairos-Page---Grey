@@ -163,7 +163,7 @@ header {
 }
 .service-container .H1-containers {
   font-family: "Inika", serif;
-  color: #D9E3EA;
+  color: #FFF;
   font-weight: bold;
   overflow-y: hidden;
   text-align: center;
@@ -219,7 +219,7 @@ header {
   width: 16vw !important;
   border-radius: 10px;
   background-color: #33363A;
-  color: white;
+  color: #FFF;
   transition: 0.8s;
 }
 .service-button1:hover {
@@ -349,7 +349,6 @@ header {
   margin-left: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: end;
 }
 .about-container .text-about .h1-about {
   font-family: "Inika", serif;
@@ -367,7 +366,6 @@ header {
   width: 50%;
   height: 85vh;
   display: flex;
-  justify-content: end;
   flex-direction: column;
 }
 .about-container .quality-about .image-about {
@@ -438,7 +436,7 @@ header {
 }
 .vantages-container .H1-containers {
   font-family: "Inika", serif;
-  color: #D9E3EA;
+  color: #fff;
   font-weight: bold;
   overflow-y: hidden;
   text-align: center;
@@ -491,7 +489,7 @@ header {
 }
 .feedback-container .H1-containers {
   font-family: "Inika", serif;
-  color: #D9E3EA;
+  color: #fff;
   font-weight: bold;
   overflow-y: hidden;
   text-align: center;
@@ -539,7 +537,7 @@ header {
 }
 .contact-container .H1-containers {
   font-family: "Inika", serif;
-  color: #D9E3EA;
+  color: #fff;
   font-weight: bold;
   overflow-y: hidden;
   text-align: center;
@@ -612,6 +610,7 @@ textarea.input-field {
   height: auto !important;
   font-size: 20px;
   color: #fff;
+  overflow: hidden;
 }
 
 .p-contact {
@@ -633,10 +632,22 @@ textarea.input-field {
   .text-c {
     width: auto !important;
   }
+  .contact-text {
+    justify-content: end;
+  }
 }
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   .p-contact {
-    width: 100vw !important;
+    width: auto !important;
+  }
+  .input-field {
+    width: calc(140% - 40px); /* ajuste para compensar a largura da borda esquerda */
+  }
+  .content-contact2 {
+    width: 160% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 * {
@@ -648,11 +659,22 @@ textarea.input-field {
 
 body {
   background-color: #434649 !important;
-  color: white !important;
+  color: #fafafa !important;
 }
 
 p {
   margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  transition: 1s;
+}
+a:hover {
+  color: #FFF;
+  transition: 1s;
+  transform: scale(0.9);
 }
 
 .introduction-container {
@@ -662,7 +684,7 @@ p {
 }
 .introduction-container .H1-KAI {
   font-family: "Inika", serif;
-  color: #D9E3EA;
+  color: #FFF;
   font-weight: bold;
   overflow-y: hidden;
   text-align: center;
@@ -686,15 +708,15 @@ p {
   font-family: "Inter", sans-serif;
 }
 .introduction-container .container-conteudo .text-container .h1-first {
-  color: #f0ffff;
+  color: #fff;
   font-size: 26px;
 }
 .introduction-container .container-conteudo .text-container .p-first {
-  color: #9BA9B4;
+  color: #f0ffff;
   font-size: 20px;
 }
 .introduction-container .container-conteudo .text-container .h2-first {
-  color: #D9E3EA;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -812,7 +834,7 @@ p {
     font-size: 15px !important;
   }
   .pb-3 {
-    padding-bottom: 0rem !important;
+    padding-bottom: 1.2rem !important;
   }
   .button-l {
     font-size: 12px;
