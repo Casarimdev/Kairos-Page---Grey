@@ -972,6 +972,10 @@ a:link:hover, a:visited:hover {
   .introduction-container {
     height: auto !important;
   }
+  a {
+    margin-right: 0rem !important;
+    margin-right: 0 !important;
+  }
   .container-conteudo {
     flex-direction: column;
     height: auto !important;
