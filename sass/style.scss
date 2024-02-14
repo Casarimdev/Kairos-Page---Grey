@@ -146,6 +146,7 @@ a:link, a:visited {
     background-color: #b01f1f;
     color: white;
     transition: 0.8s;
+    margin-right: 1.5rem !important;
     &:hover{
       background-color: #b01f1f;
       color: #fafafa;
@@ -180,10 +181,6 @@ a:link, a:visited {
     justify-content: center;
 }
 
-
-.me-4 {
-    margin-right: 0rem!important;
-}
 
 .icons-back{
 
@@ -244,6 +241,10 @@ a:link, a:visited {
             justify-content: center;
             align-items: center;
         }
+    }
+
+    .contact-button{
+        margin-right: 0rem !important;
     }
 
     .h1-first{
