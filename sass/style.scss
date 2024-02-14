@@ -118,6 +118,7 @@ a:link, a:visited {
     border: 1px solid #161419;
     min-width: 10vw !important;
     width: auto !important;
+    margin-right: 2rem !important;
   }
 
   .service-button{
@@ -146,7 +147,7 @@ a:link, a:visited {
     background-color: #b01f1f;
     color: white;
     transition: 0.8s;
-    margin-right: 1.5rem !important;
+    margin-right: 2rem !important;
     &:hover{
       background-color: #b01f1f;
       color: #fafafa;
