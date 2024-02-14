@@ -940,6 +940,10 @@ a:link:hover, a:visited:hover {
   justify-content: center;
 }
 
+.me-4 {
+  margin-right: 0rem !important;
+}
+
 .icons-back {
   transition: 1.5s;
 }
