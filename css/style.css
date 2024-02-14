@@ -536,6 +536,7 @@ textarea.input-field {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 4vh !important;
   }
   .p-contact {
     width: auto !important;
@@ -546,6 +547,7 @@ textarea.input-field {
   }
   .contact-text {
     justify-content: end;
+    margin-left: 4vh !important;
   }
 }
 @media (max-width: 510px) {
@@ -1003,6 +1005,9 @@ a:link:hover, a:visited:hover {
     width: auto !important;
   }
   .button-l .me-4 {
+    margin-right: 0rem !important;
+  }
+  .me-4 {
     margin-right: 0rem !important;
   }
   .buttons-c {
