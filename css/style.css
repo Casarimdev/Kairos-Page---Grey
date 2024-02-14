@@ -62,100 +62,6 @@ header {
   color: #D9E3EA !important;
 }
 
-.intro {
-  background: #161419;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-y: hidden;
-}
-
-.slider {
-  background: rgb(97, 105, 109);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  overflow-y: hidden;
-}
-
-.intro-text {
-  color: #161419;
-  font-family: "Heebo", sans-serif;
-  font-size: 3rem;
-  overflow-y: hidden;
-}
-
-.hide {
-  color: #fafafa;
-  overflow: hidden;
-}
-
-.hide span {
-  transform: translateY(100%);
-  display: inline-block;
-}
-
-.scroll-down2 {
-  width: 30px;
-  height: 50px;
-  box-shadow: 2px 1px 26px -6px #f60202;
-  border: 2px solid #f60202;
-  border-radius: 50px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.scroll-down2:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 20px;
-  width: 6px;
-  height: 6px;
-  border-radius: 100%;
-  transform: translateX(-50%);
-  background: #b01f1f;
-  animation: scrollDown2 1.5s ease infinite;
-}
-.scroll-down2:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 5px;
-  width: 6px;
-  height: 15px;
-  border-radius: 3px;
-  transform: translateX(-50%);
-  background: #b01f1f;
-}
-
-@keyframes scrollDown2 {
-  0% {
-    transform: translate(-50%, 0px);
-    opacity: 0;
-  }
-  50% {
-    transform: translate(-50%, 8px);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, 16px);
-    opacity: 0;
-  }
-}
-.button-scroll {
-  height: auto;
-}
-
 .service-container {
   width: 100%;
   height: auto;
@@ -744,7 +650,7 @@ a:hover {
 
 .contact-button {
   font-family: "Inter", sans-serif;
-  border: 1px solid #161419;
+  border: 1px solid #f03535;
   padding: 10px;
   border-radius: 10px;
   background-color: #b01f1f;
@@ -873,11 +779,11 @@ a:hover {
   box-shadow: 2px 2px 3px #999;
   box-shadow: 2px 0px 34px 0px #25D366;
   z-index: 100;
-  transition: 2s;
+  transition: 1s;
 }
 .float:hover {
   color: #FFF;
-  transition: 2s;
+  transition: 1s;
   box-shadow: none;
 }
 

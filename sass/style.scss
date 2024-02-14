@@ -1,7 +1,5 @@
 @import 'header.scss';
 @import 'fontes.scss';
-@import 'intro.scss';
-@import 'buttonscroll.scss';
 @import 'services.scss';
 @import 'about.scss';
 @import 'vantagens.scss';
@@ -117,7 +115,7 @@ a{
 
   .contact-button{
     font-family: 'Inter', sans-serif;
-    border: 1px solid #161419;
+    border: 1px solid #f03535;
     padding: 10px;
     border-radius: 10px;
     background-color: #b01f1f;
@@ -279,11 +277,11 @@ a{
     box-shadow: 2px 2px 3px #999;
     box-shadow: 2px 0px 34px 0px #25D366;
     z-index:100;
-    transition: 2s;
+    transition: 1s;
 
     &:hover{
         color:#FFF;
-        transition: 2s;
+        transition: 1s;
         box-shadow: none;
     }
 }
