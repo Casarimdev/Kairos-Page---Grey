@@ -5,6 +5,7 @@
 @import 'vantagens.scss';
 @import 'feedback.scss';
 @import 'contact.scss';
+@import 'nav-mobile.scss';
 
 
 * {
@@ -218,15 +219,18 @@ a{
     }
 
     .h1-first{
-        font-size: 15px !important;
+        font-size: 18px !important;
+        width: auto !important;
     }
 
     .p-first{
-        font-size: 9px !important;
+        font-size: 10px !important;
+        width: auto !important;
     }
 
     .h2-first{
         font-size: 15px !important;
+        width: auto !important;
     }
     .pb-3 {
         padding-bottom: 1.2rem!important;

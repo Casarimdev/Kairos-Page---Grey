@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Intro -->
+
+  <script src="script.js" defer></script>
   
 <!-- ------ -->
 </head>
@@ -38,6 +40,7 @@
 
 <!-- HEADER -->
   <header class="header-container fixed-top " style="height: auto; width: 100vw;">
+    <!-- NAVBAR DESKTOP -->
     <nav class="navbar navbar-expand-lg high-nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -63,6 +66,46 @@
             </div>
         </div>
     </nav>
+    <!-- ---------------- -->
+
+
+    <!-- NAVBAR MOBILE -->
+  <!-- MENU OVERLAY -->
+<section class="nav-mobile">
+    <a href="#">
+        <img src="images/Kairós-logo.png" alt="kairos-logo" class="img-mobile">
+    </a>
+    <div class="overlay overlay-slide-left" id="overlay">    
+        <!-- MENU ITEMS -->
+        <nav>
+          <ul>
+            <li id="nav-1" class="slide-out-1 center">
+              <a href="#home" class="center">Home</a>
+            </li>
+            <li id="nav-2" class="slide-out-2 center">
+              <a href="#service" class="center">Serviços</a>
+            </li>
+            <li id="nav-3" class="slide-out-3 center">
+              <a href="#about" class="center">Sobre a Kairós</a>
+            </li>
+            <li id="nav-4" class="slide-out-4 center">
+              <a href="#vanta" class="center">Vantagens</a>
+            </li>
+            <li id="nav-5" class="slide-out-5 center">
+              <a href="#contact" class="center">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- HAMBURGER MENU -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="menu-bar1"></div>
+        <div class="menu-bar2"></div>
+        <div class="menu-bar3"></div>
+      </div>
+</section>
+    <!-- ---------------- -->
+
 </header>
 <!-- ---------------- -->
 
@@ -200,7 +243,7 @@
 <!-- ---------------- -->
 
 <!-- VANTAGENS CONTAINER -->
-<section class="vantages-container pt-5 pb-5">
+<section class="vantages-container pt-5 pb-5" id = "vanta">
     <h1 class="H1-containers" data-aos="fade-up" data-aos-duration="1500">Vantagens de ser KAIRÓS</h1>
     <p class="p-containers pt-2"data-aos="fade-down" data-aos-duration="2500">"Escolha a Zeladoria Kairós e tenha segurança, eficiência e tranquilidade todos os dias.”</p>
 
@@ -343,7 +386,7 @@
 <!-- ---------------- -->
 
 <!-- INTRO CONTAINER -->
-    
+
 <!-- data-aos="fade-left" data-aos-duration="2500" -->
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
