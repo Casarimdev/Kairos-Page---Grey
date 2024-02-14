@@ -908,6 +908,7 @@ a:link:hover, a:visited:hover {
   background-color: #b01f1f;
   color: white;
   transition: 0.8s;
+  margin-right: 1.5rem !important;
 }
 .contact-button:hover {
   background-color: #b01f1f;
@@ -938,10 +939,6 @@ a:link:hover, a:visited:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.me-4 {
-  margin-right: 0rem !important;
 }
 
 .icons-back {
@@ -985,6 +982,9 @@ a:link:hover, a:visited:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .contact-button {
+    margin-right: 0rem !important;
   }
   .h1-first {
     font-size: 18px !important;
