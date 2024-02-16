@@ -34,9 +34,10 @@
 
         .subtitle-service{
             font-family: 'Architects Daughter', cursive;
-            color: #E53D3E;
+            color: #000000;
+            font-weight: 600;
             margin-left: 0 !important;
-            font-size: 18px;
+            font-size: 20px;
         }
 
         .h1-service{
@@ -90,8 +91,10 @@
     flex-direction: column;
     .subtitle-service{
         font-family: 'Architects Daughter', cursive;
-        color: #E53D3E;
+        color: #000000;
+        font-weight: 600;
         margin-left: 0 !important;
+        font-size: 20px;
     }
 
     .h1-service{

@@ -95,9 +95,10 @@ header {
 }
 .service1-content .service-texts .subtitle-service {
   font-family: "Architects Daughter", cursive;
-  color: #E53D3E;
+  color: #000000;
+  font-weight: 600;
   margin-left: 0 !important;
-  font-size: 18px;
+  font-size: 20px;
 }
 .service1-content .service-texts .h1-service {
   font-family: "Inter", sans-serif;
@@ -144,8 +145,10 @@ header {
 }
 .service-texts-right .subtitle-service {
   font-family: "Architects Daughter", cursive;
-  color: #E53D3E;
+  color: #000000;
+  font-weight: 600;
   margin-left: 0 !important;
+  font-size: 20px;
 }
 .service-texts-right .h1-service {
   font-family: "Inter", sans-serif;
